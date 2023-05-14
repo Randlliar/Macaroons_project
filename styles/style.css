@@ -5,18 +5,18 @@
 }
 
 @font-face {
-  font-family: Glory-Bold;
-  src: url("../fonts/Glory-Bold.ttf");
+  font-family: Gilroy-Bold;
+  src: url("../fonts/Gilroy-Bold.ttf");
 }
 
 @font-face {
-  font-family: Glory-ExtraBold;
-  src: url("../fonts/Glory-ExtraBold.ttf");
+  font-family: Gilroy-Extrabold;
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
 }
 
 @font-face {
-  font-family: Glory-Regular;
-  src: url("../fonts/Glory-Regular.ttf");
+  font-family: Gilroy-Regular;
+  src: url("../fonts/Gilroy-Regular.ttf");
 }
 
 @font-face {
@@ -25,8 +25,8 @@
 }
 
 @font-face {
-  font-family: Glory-Medium;
-  src: url("../fonts/Glory-Medium.ttf");
+  font-family: Gilroy-Medium;
+  src: url("../fonts/Gilroy-Medium.ttf");
 }
 
 body {
@@ -87,14 +87,16 @@ body {
 .main-info {
 }
 
-.main-info h1 {
+.main-info .title {
   font-size: 55px;
   color: rgb(255, 255, 255);
   line-height: 1.091;
+  font-weight: normal;
 }
 
 .main-info-description {
   max-width: 349px;
+  line-height: 1.389;
   font-size: 18px;
   color: rgb(255, 255, 255);
   margin: 60px 0 80px 0;
@@ -118,5 +120,6 @@ body {
 }
 
 .btn:hover {
-  box-shadow: 0px 5px 9px 1px rgba(130, 19, 40, 0.5);
+  box-shadow: 0 5px 9px 1px rgba(130, 19, 40, 0.5);
 }
+
