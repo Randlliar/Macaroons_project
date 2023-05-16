@@ -125,6 +125,10 @@ body {
   box-shadow: 0 5px 9px 1px rgba(130, 19, 40, 0.5);
 }
 
+.main-image img {
+  max-width: 100%;
+}
+
 .advantages {
   padding: 120px 0;
   background-color: rgb(255, 239, 239);
@@ -271,4 +275,151 @@ body {
   width: 130px;
   padding: 20px;
   font-size: 16px;
+}
+
+
+.order {
+  background: #ffefef;
+  padding: 98px 0 120px 0;
+}
+
+.order .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-image {
+  position: relative;
+}
+
+.order-image img {
+  max-width: 100%;
+}
+
+.strawberry{
+  position: absolute;
+  left: 0;
+}
+
+.strawberry2{
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+}
+
+.order-content {
+  max-width: 406px;
+  position: relative;
+}
+
+.order-content-title {
+  font-size: 45px;
+  color: rgb(51, 25, 7);
+  margin-bottom: 41px;
+}
+
+.order-content-description {
+  font-size: 18px;
+  font-family: "Gilroy-Regular", sans-serif;
+  color: rgb(51, 25, 7);
+  margin-bottom: 19px;
+
+}
+
+.order-wish-title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  color: rgb(18, 10, 6);
+  margin-bottom: 26px;
+}
+
+.order-input  {
+  border: 1px solid rgb(130, 19, 40);
+  border-radius: 30px;
+  width: 295px;
+  padding: 23px;
+  outline: 0;
+  background: transparent;
+  margin: 8px 0 7px;
+  font-size: 15px;
+  color: rgb(118, 12, 34);
+
+}
+
+.order-input::placeholder {
+  font-size: 15px;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: rgb(118, 12, 34);
+}
+
+.order-contacts {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-contacts-title {
+  margin-bottom: 14px;
+  font-size: 18px;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: rgb(18, 10, 6);
+}
+
+.btn.order-btn {
+  border-radius: 30px;
+  background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+  width: 295px;
+  padding: 22px;
+  border: 0;
+  margin-top: 8px;
+}
+
+.footer {
+  background: #c0707c;
+  padding: 64px 0 62px 0;
+  position: relative;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rights {
+  margin-top: 19px;
+  font-size: 12px;
+  font-family: "Gilroy-Regular", sans-serif;
+  color: rgb(227, 172, 180);
+}
+
+.instagram {
+  text-align: center;
+}
+
+.instagram-description {
+  font-size: 16px;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+}
+
+.present {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 12.6px 2.4px rgba(130, 19, 40, 0.5);
+  width: 90px;
+  height: 90px;
+  background: #a4283d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.present img {
+  bottom: 0;
 }
