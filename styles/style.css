@@ -96,7 +96,7 @@ z-index: 3;
 }
 
 .main-image {
-  position: absolute;
+  position: relative;
 }
 
 .main-info-description {

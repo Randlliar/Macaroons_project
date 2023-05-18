@@ -108,6 +108,9 @@
 
   .main-image-inner {
     position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+
   }
 
   .main .container {
@@ -123,13 +126,13 @@
   }
 
   .main-image {
-    position: absolute;
-    top: 450px;
-    right: 250px;
+    position: unset;
+    /*top: 450px;*/
+    /*right: 250px;*/
   }
 
   .main-image img {
-    max-width: 250px;
+    /*max-width: 250px;*/
   }
 
   .advantages-block-title {
