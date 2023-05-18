@@ -298,7 +298,9 @@ z-index: 3;
 
 .order .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: relative;
+  align-items: flex-end;
 }
 
 .order-image {
@@ -311,7 +313,8 @@ z-index: 3;
 
 .strawberry{
   position: absolute;
-  left: 0;
+  left: 70px;
+  top: 20px;
 }
 
 .strawberry2{
@@ -408,6 +411,14 @@ z-index: 3;
   color: rgb(227, 172, 180);
 }
 
+.rights_1 {
+  margin-top: 19px;
+  font-size: 12px;
+  font-family: "Gilroy-Regular", sans-serif;
+  color: rgb(227, 172, 180);
+  display: none;
+}
+
 .instagram {
   text-align: center;
 }
@@ -438,6 +449,7 @@ z-index: 3;
   background: #a4283d;
   display: flex;
   align-items: center;
+  /*position: relative;*/
   justify-content: center;
 }
 

@@ -8,7 +8,7 @@
   }
 
   .choice-item {
-    margin-top: 136px;
+    margin: 136px 20px 0;
   }
 }
 
@@ -40,9 +40,6 @@
     max-width: 100%;
   }
 
-  .advantages .container {
-    padding: 0 50px;
-  }
 
   .advantages-block {
     grid-template-columns: 1fr;
@@ -52,10 +49,6 @@
   }
 
   .advantages-block-title {
-    font-size: 45px;
-    font-family: "Tavolga", sans-serif;
-    font-weight: bold;
-    color: rgb(51, 25, 7);
     line-height: 1.222;
     max-width: 100%;
 
@@ -99,6 +92,11 @@
   .order-image img {
     text-align: end;
   }
+
+  .strawberry {
+    right: 320px;
+    top: 150px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -116,6 +114,7 @@
   .main .container {
     display: block;
     text-align: center;
+    margin-bottom: 100px;
   }
 
   .main-info {
@@ -127,16 +126,11 @@
 
   .main-image {
     position: unset;
-    /*top: 450px;*/
-    /*right: 250px;*/
   }
 
-  .main-image img {
-    /*max-width: 250px;*/
-  }
 
-  .advantages-block-title {
-    /*max-width: 475px;*/
+  .advantages-image {
+    max-width: 302px;
   }
 
   .navigation {
@@ -155,13 +149,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    max-width: 390px;
+    justify-content: center;
+    width: 100%;
   }
 
   .navigation-item {
     margin: 15px 0;
 
+  }
+
+  .navigation ul li {
+    margin-right: 0;
+    font-size: 26px;
+    color: rgb(241 226 229);
   }
 
   .header__burger {
@@ -188,5 +188,109 @@
     position: absolute;
     top: 20px;
     left: 20px;
+  }
+
+  .order .container {
+    align-items: flex-end;
+  }
+
+  .main {
+    padding: 60px 0 62px 0;
+  }
+
+  .main-info .title {
+    font-size: 30px;
+  }
+
+  .main-info-description {
+    margin-top: 38px;
+  }
+
+  .btn.main-btn {
+    width: 240px;
+    padding: 19px;
+    font-size: 18px;
+  }
+
+  .advantages-block-title {
+    font-size: 30px;
+    line-height: 1.167;
+    text-align: center;
+  }
+
+  .advantages-items {
+    gap: 30px 15px;
+  }
+
+  .rights {
+    margin-top: 19px;
+    font-size: 12px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(227, 172, 180);
+    display: none;
+  }
+
+  .rights_1 {
+    margin-top: 19px;
+    font-size: 12px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(227, 172, 180);
+    display: block;
+    order: 4;
+  }
+
+  .instagram {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    order: 3;
+  }
+
+  .contacts {
+    margin-top: 20px;
+  }
+}
+
+
+@media screen and (max-width: 667px) {
+
+  .advantages-item-description {
+    font-size: 13px;
+  }
+
+  .order-image {
+    display: none;
+  }
+
+  .order .container{
+    justify-content: center;
+  }
+
+  .order-input {
+    width: 100%;
+  }
+
+  .btn.order-btn {
+    width: 100%;
+
+  }
+
+  .order-content-description {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+  .strawberry {
+    right: 20px;
+    top: 120px;
+    left: unset;
+  }
+
+  .strawberry2 {
+    display: none;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    text-align: center;
   }
 }
