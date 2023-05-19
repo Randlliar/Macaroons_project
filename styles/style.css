@@ -68,6 +68,11 @@ z-index: 3;
   transition: all .3s linear;
 }
 
+.navigation-item a {
+  text-decoration: none;
+  color: rgb(119, 11, 29);
+}
+
 
 .contacts {
   font-size: 16px;
