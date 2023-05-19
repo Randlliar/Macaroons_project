@@ -31,6 +31,14 @@
   bottom: 0;
 }
 
+.strawberry {
+  animation: bounce 2s linear infinite;
+
+}
+
+.strawberry2 {
+  animation: bounce 2s linear infinite;
+}
 
 @keyframes pulse-1 {
   0% {
@@ -58,6 +66,12 @@
   }
 }
 
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
 
 @keyframes popup {
   0% {
@@ -94,15 +108,14 @@
   color: rgb(130, 19, 40);
 }
 
-.present-block:hover .present-block{
+.present:hover .present-block{
   box-shadow: 0 0 12.6px 2.4px rgba(130, 19, 40, 0.5);
 }
 
 .present:hover .popup {
-  /*display: block;*/
   position: absolute;
   right: 90px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .popup {
@@ -123,6 +136,7 @@
   position: absolute;
   bottom: -140px;
   right: 90px;
+  animation: present 1s linear;
 
 }
 
@@ -152,5 +166,24 @@
   bottom: -20px;
 }
 
+/*@keyframes present {*/
+/*  0% {*/
+/*    transform: scale(0);*/
+/*    opacity: 0;*/
+/*  }*/
 
+/*  25% {*/
+/*    opacity: .25;*/
+/*  }*/
+/*  50% {*/
+/*    opacity: .5;*/
+/*  }*/
 
+/*  75% {*/
+/*    opacity: .75;*/
+/*  }*/
+
+/*  100% {*/
+/*    opacity: 1;*/
+/*  }*/
+/*}*/
