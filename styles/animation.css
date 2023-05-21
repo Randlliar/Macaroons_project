@@ -1,35 +1,51 @@
 .main-image::before {
   content: '';
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 35%;
+  height: 35%;
   border-radius: 50%;
-  animation: pulse-1 2s linear infinite;
-  background: transparent;
-  border: 1px solid #7e0606;
+  border: 1px solid rgba(130, 19, 40, 0.5);
   z-index: 1;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  animation: pulse 2.5s infinite ease-out;
+  top: 31%;
+  left: 37%;
 }
 
 .main-image::after {
   content: '';
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  height: 35%;
   border-radius: 50%;
-  animation: pulse-1 2s linear infinite;
-  background: transparent;
-  border: 1px solid #7e0606;
+  border: 1px solid rgba(130, 19, 40, 0.5);
   z-index: 1;
+  animation: pulse 2.5s infinite ease-out;
   animation-delay: 0.5s;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  top: 31%;
+  left: 37%;
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  35% {
+    transform: scale(.35);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    transform: scale(4.3);
+    opacity: 0;
+  }
+}
+
 
 .strawberry {
   animation: bounce 2s linear infinite;
@@ -37,34 +53,10 @@
 }
 
 .strawberry2 {
-  animation: bounce 2s linear infinite;
+  animation: bounce 4s linear infinite;
 }
 
-@keyframes pulse-1 {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
 
-  25% {
-    transform: scale(.5);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  75% {
-    transform: scale(1.2);
-    opacity: .5;
-  }
-
-  100% {
-    transform: scale(1.4);
-    opacity: 0;
-  }
-}
 
 
 @keyframes bounce {
