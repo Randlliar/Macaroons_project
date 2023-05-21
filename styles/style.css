@@ -31,7 +31,6 @@
 
 body {
   font-family: "Tavolga Free", sans-serif;
-z-index: 3;
 }
 
 .header {
@@ -92,6 +91,8 @@ z-index: 3;
 .main {
   background: #eba8b1;
   padding: 126px 0 108px 0;
+  overflow-x: hidden;
+
 }
 
 .main .container {
@@ -170,6 +171,8 @@ z-index: 3;
   font-family: "Tavolga Free", sans-serif;
   color: rgb(51, 25, 7);
   line-height: 1.222;
+  font-weight: normal;
+
 }
 
 .advantages-description {
@@ -331,13 +334,13 @@ z-index: 3;
   max-width: 100%;
 }
 
-.strawberry{
+.strawberry {
   position: absolute;
   left: 70px;
   top: 20px;
 }
 
-.strawberry2{
+.strawberry2 {
   position: absolute;
   right: 0;
   bottom: 80px;
@@ -352,6 +355,7 @@ z-index: 3;
   font-size: 45px;
   color: rgb(51, 25, 7);
   margin-bottom: 41px;
+  font-weight: normal;
 }
 
 .order-content-description {
@@ -369,7 +373,7 @@ z-index: 3;
   margin-bottom: 10px;
 }
 
-.order-input  {
+.order-input {
   border: 1px solid rgb(130, 19, 40);
   border-radius: 30px;
   width: 295px;
@@ -379,13 +383,15 @@ z-index: 3;
   margin: 8px 0 7px;
   font-size: 15px;
   color: rgb(118, 12, 34);
+  font-family: "Gilroy-Bold", sans-serif;
 
 }
 
 .order-input::placeholder {
   font-size: 15px;
-  font-family: "Gilroy-Bold", sans-serif;
   color: rgb(118, 12, 34);
+  font-family: "Gilroy-Bold", sans-serif;
+
 }
 
 .order-contacts {
@@ -462,7 +468,6 @@ z-index: 3;
 }
 
 
-
 .present-block {
   border-radius: 50%;
   width: 90px;
@@ -477,7 +482,6 @@ z-index: 3;
 .present-block img {
   bottom: 0;
 }
-
 
 
 .header__burger {

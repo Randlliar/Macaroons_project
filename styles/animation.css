@@ -1,8 +1,8 @@
 .main-image::before {
   content: '';
   position: absolute;
-  width: 35%;
-  height: 35%;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 1px solid rgba(130, 19, 40, 0.5);
   z-index: 1;
@@ -14,8 +14,8 @@
 .main-image::after {
   content: '';
   position: absolute;
-  width: 30%;
-  height: 35%;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 1px solid rgba(130, 19, 40, 0.5);
   z-index: 1;
